@@ -1,9 +1,12 @@
-body {
+.body-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  max-width: 1440px;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .container {
@@ -14,13 +17,13 @@ body {
 }
 
 .filters {
-  flex: 1 2 20vw;
+  flex: 1 2 20%;
 }
 .room {
-  flex: 1 0 60vw;
+  flex: 1 0 60%;
 }
 .ads {
-  flex: 1 2 20vw;
+  flex: 1 2 20%;
 }
 
 main {
